@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo{
+    margin: 1px 25px;
+}
+#logo img{
+    margin: 1px 6px;
+    width: 65px;
+    border-radius: 60px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;
+}
+#navbar li a{
+    color: white;
+    display: block;
+    padding: 1px 22px;
+    border-radius: 19px;
+    text-decoration: none; 
+}
+#navbar li a:hover{
+    color: rgb(148, 205, 238); 
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+    padding: 3px 200px;
+    margin: 30px 20px;
+}
+#home::before{
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+#location input{
+    padding: 5px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+#location button{
+    padding: 1px;
+    width: 150px;
+    font-size: 20px;
+    background-color: tomato;
+    font-family: 'Baloo Da 2', cursive;
+    color:white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.h-secondary{
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+}
+#services{
+    display: flex;
+    margin: 2px 34px;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 18px;
+    margin: 1px 6px;
+    border-radius: 28px;
+    background: rgb(216, 219, 223);
+}
+#services .box img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.serve{
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+    cursor: pointer;
+}
+#services p{
+    text-align: center;
+    font-family: 'Baloo Da 2', cursive;
+}
+#client-section{
+    margin: 17px;
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    opacity: 0.6;
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+.client-item{
+    padding: 2px;
+    margin: 6px;
+}
+#clients img{
+    height: 120px;
+    cursor: pointer;
+    border-radius: 73px;
+    position: relative;
+    z-index: -2;
+}
+#contact{
+    position: relative;
+    height: 450px;
+    margin: 17px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('../contact.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 4px;
+    border-radius: 9px;
+    font-size: 13px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 20px;
+    font-family: 'Baloo Da 2', cursive;
+}
+footer{
+    text-align: center;
+    cursor: pointer;
+    font-size: 23x;
+    background: rgb(134, 194, 194);
+    color: rgb(8, 28, 46);
+    padding: 9px 20px;
+}
+
