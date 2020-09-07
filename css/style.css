@@ -114,11 +114,11 @@ html{
     margin: 2px 34px;
 }
 #services .box{
-    border: 2px solid brown;
+    border: 2px solid rgb(226, 144, 144);
     padding: 18px;
     margin: 1px 6px;
     border-radius: 28px;
-    background: rgb(216, 219, 223);
+    background: rgb(246, 245, 250);
 }
 #services .box img{
     width: 210px;
