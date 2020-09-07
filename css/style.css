@@ -121,7 +121,8 @@ html{
     background: rgb(216, 219, 223);
 }
 #services .box img{
-    width: 200px;
+    width: 210px;
+    height: 170px;
     display: block;
     margin: auto;
     border-radius: 20px;
@@ -159,7 +160,8 @@ html{
     margin: 6px;
 }
 #clients img{
-    height: 120px;
+    height: 130px;
+    width: 160px;
     cursor: pointer;
     border-radius: 73px;
     position: relative;
